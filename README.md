@@ -24,43 +24,6 @@ The response you'll get looks something like this:
 }
 ```
 
-You can also [read the complete tutorial here](https://www.curiousily.com/posts/deploy-bert-for-sentiment-analysis-as-rest-api-using-pytorch-transformers-by-hugging-face-and-fastapi/)
-
-## Installation
-
-Clone this repo:
-
-```sh
-git clone git@github.com:curiousily/Deploy-BERT-for-Sentiment-Analysis-with-FastAPI.git
-cd Deploy-BERT-for-Sentiment-Analysis-with-FastAPI
-```
-
-Install the dependencies:
-
-```sh
-pipenv install --dev
-```
-
-Download the pre-trained model:
-
-```sh
-bin/download_model
-```
-
-## Test the setup
-
-Start the HTTP server:
-
-```sh
-bin/start_server
-```
-
-Send a test request:
-
-```sh
-bin/test_request
-```
-
 ## License
 
 MIT
